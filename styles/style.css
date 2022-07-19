@@ -2,6 +2,43 @@
  Base and common styles
 ---------------- */
 /* font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 body {
-  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  margin-top: 50px;
+}
+
+/*----------------
+ Top-heading-Styles
+---------------- */
+.top_heading {
+  display: flex;
+  justify-items: center;
+  width: 1321px;
+  height: 646px;
+  background-color: #161616;
+  border-radius: 30px;
+  color: #ffffff;
+}
+.news_info {
+  margin: 100px;
+}
+.news_info h1 {
+  font-weight: 700;
+  font-size: 70px;
+}
+.news_info p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.news_info a {
+  text-decoration: none;
+  background-color: #dd0000;
+  padding: 16px 25px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5px;
 }
