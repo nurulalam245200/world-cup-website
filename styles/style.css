@@ -7,7 +7,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .container {
-  margin-top: 50px;
 }
 
 /*----------------
@@ -41,4 +40,8 @@ body {
   text-align: center;
   font-size: 20px;
   border-radius: 5px;
+}
+.top_poster img {
+  width: 581px;
+  height: 613px;
 }
