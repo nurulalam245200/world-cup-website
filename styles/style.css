@@ -8,15 +8,16 @@ body {
 }
 .container {
 }
+header {
+}
 
 /*----------------
  Top-heading-Styles
 ---------------- */
 .top_heading {
   display: flex;
-  justify-items: center;
-  width: 1321px;
-  height: 646px;
+  justify-content: center;
+  margin: 50px 140px;
   background-color: #161616;
   border-radius: 30px;
   color: #ffffff;
@@ -41,7 +42,105 @@ body {
   font-size: 20px;
   border-radius: 5px;
 }
+.news_info a:hover {
+  animation-name: change;
+  animation-iteration-count: infinite;
+}
+
+@keyframes change {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
+}
+.fa-angle-right {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
+
 .top_poster img {
   width: 581px;
   height: 613px;
+}
+
+/*--------------
+  main-site-styles
+--------------- */
+
+.news_link {
+  display: flex;
+  justify-content: center;
+  width: 312px;
+  height: 312px;
+  background-color: #161616;
+  border-radius: 10px;
+}
+
+nav a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: #161616;
+  padding: 17px 39px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 30px;
+}
+#highlight_link {
+  background-color: #dd0000;
+  color: #ffffff;
+}
+
+/*---------------
+blogs-styles
+----------------- */
+.main_blog_container {
+  display: flex;
+  justify-content: flex-start;
+  margin: 50px 140px;
+}
+.blog {
+  width: 312px;
+  height: 362px;
+  border-radius: 5px;
+}
+.blog_poster img {
+  width: 312px;
+  height: 175px;
+  border-radius: 10px 10px 0px 0px;
+}
+.blog_info button {
+  font-weight: 500;
+  font-size: 16px;
+  color: #161616;
+  border: 1px solid #161616;
+  border-radius: 5px;
+  padding: 4px 17px;
+}
+.blog_info h3 {
+  font-weight: 600;
+  font-size: 18px;
+  /* width: 272px;
+  height: 54px; */
+}
+.match_review {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.fa-clock .fa-message {
+  gap: 10px;
+  width: 18px;
+  height: 18px;
+  color: rgba(22, 22, 22, 0.7);
 }
