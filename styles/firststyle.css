@@ -390,6 +390,9 @@ special-link-styles
 }
 /* tablet device */
 @media only screen and (min-width: 768px) {
+  /*---------
+   tablet-head-screen-start
+  --------- */
   .top_heading {
     display: flex;
     justify-content: flex-start;
@@ -421,11 +424,18 @@ special-link-styles
     font-size: 20px;
     border-radius: 5px;
   }
+
   .fa-angle-right {
     width: 10px;
     height: 10px;
     margin-left: 5px;
   }
+  /*---------
+   tablet-head-screen-end
+  --------- */
+  /*---------
+   tablet-main-screen-start
+  --------- */
   .blogs_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -438,8 +448,17 @@ special-link-styles
     align-items: center;
     visibility: visible;
   }
+  /*---------
+   tablet-main-screen-end
+  --------- */
+  /*---------
+   tablet-footer-screen-start
+  --------- */
   .foot_container {
     margin: 0;
     width: 1050px;
   }
+  /*---------
+   tablet-footer-screen-end
+  --------- */
 }
