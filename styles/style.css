@@ -257,28 +257,24 @@ special-link-styles
   align-items: center;
   gap: 20px;
 }
-.fa-facebook {
-  width: 75px;
-  height: 75px;
+.fa-facebook,
+.fa-instagram,
+.fa-twitter,
+.fa-youtube {
+  width: 18pxpx;
+  height: 18px;
   margin: 0;
+}
+#facebook {
   color: darkblue;
 }
-.fa-instagram {
-  width: 75px;
-  height: 75px;
-  margin: 0;
+#instagram {
   color: deeppink;
 }
-.fa-twitter {
-  width: 75px;
-  height: 75px;
-  margin: 0;
-  color: rgb(46, 133, 231);
+#twitter {
+  color: rgb(15, 131, 177);
 }
-.fa-youtube {
-  width: 75px;
-  height: 75px;
-  margin: 0;
+#youtube {
   color: red;
 }
 .connect_link a {
@@ -370,5 +366,22 @@ special-link-styles
     justify-content: center;
     align-items: center;
     gap: 20px;
+  }
+
+  .fa-facebook,
+  .fa-instagram,
+  .fa-twitter,
+  .fa-youtube {
+    width: 18pxpx;
+    height: 18px;
+    margin: 0;
+  }
+
+  .connect_link a {
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 5pxpx;
+    font-size: 16px;
+    color: #ffffff;
   }
 }
