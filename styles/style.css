@@ -15,8 +15,9 @@ header {
  Top-heading-Styles
 ---------------- */
 .top_heading {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 1321px;
   margin: 50px 140px;
   background-color: #161616;
   border-radius: 30px;
@@ -83,6 +84,7 @@ header {
   height: 312px;
   background-color: #161616;
   border-radius: 10px;
+  margin-right: 34px;
 }
 
 nav a {
@@ -108,6 +110,11 @@ blogs-styles
   display: flex;
   justify-content: flex-start;
   margin: 50px 140px;
+}
+.blogs_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 24px;
 }
 .blog {
   width: 312px;
