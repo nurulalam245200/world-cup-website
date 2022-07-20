@@ -101,6 +101,10 @@ nav a {
 /*--------------
  upcoming match-styles
 ------------- */
+.main_blog_container {
+  display: flex;
+  justify-content: center;
+}
 .matches {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
