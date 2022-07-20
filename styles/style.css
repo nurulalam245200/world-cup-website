@@ -41,7 +41,7 @@ body {
 }
 .news_info a:hover {
   animation-name: change;
-  animation-iteration-count: infinite;
+  animation-duration: 14s;
 }
 
 @keyframes change {
@@ -162,6 +162,51 @@ blogs-styles
   font-weight: 400;
   font-size: 20px;
   color: #ffffff;
+}
+/*--------------
+ upcoming match-styles
+------------- */
+.matches {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 14px;
+}
+.match_container {
+  width: 312px;
+  height: 242px;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+}
+.upcomming_matchs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upcomming_matchs img {
+  padding: 10px 10px;
+  width: 100px;
+  height: 80px;
+}
+.upcomming_matchs span {
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  color: #161616;
+}
+.match_info {
+  text-align: center;
+}
+.match_info h1 {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #161616;
+}
+.match_info p {
+  font-size: 16px;
+  text-align: center;
+  color: #4d4d4d;
 }
 /*---------------
  footer-styles
