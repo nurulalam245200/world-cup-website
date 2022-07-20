@@ -224,6 +224,7 @@ blogs-styles
 hr {
   display: flex;
   justify-content: center;
+  justify-items: center;
   align-items: center;
   width: 1320px;
 }
@@ -261,9 +262,9 @@ special-link-styles
 .fa-instagram,
 .fa-twitter,
 .fa-youtube {
-  width: 18pxpx;
+  width: 18px;
   height: 18px;
-  margin: 0;
+  margin: 10px;
 }
 #facebook {
   color: darkblue;
